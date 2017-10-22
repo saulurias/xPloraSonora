@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock:400,700');
+
+
+body{
+    font-family: "Overlock", Arial, Helvetica, sans-serif;
+    color: #6d6e70;
+    font-size: 12px;
+    margin: 0 45px;
+    background: linear-gradient(to right, rgba(62,148,207,1) 0%,rgba(9,112,170,1) 0%,rgba(0,121,178,1) 0%,rgba(0,120,183,1) 0%,rgba(5,116,187,1) 0%,rgba(8,112,183,1) 0%,rgba(0,121,178,1) 1%,rgba(4,117,183,1) 1%,rgba(4,117,185,1) 3%,rgba(3,116,176,1) 7%,rgba(2,115,173,1) 7%,rgba(2,115,173,1) 8%,rgba(1,114,170,1) 8%,rgba(2,115,171,1) 9%,rgba(1,115,169,1) 10%,rgba(2,113,166,1) 10%,rgba(2,113,158,1) 13%,rgba(2,113,159,1) 14%,rgba(1,113,153,1) 15%,rgba(4,113,154,1) 32%,rgba(4,113,154,1) 33%,rgba(1,113,153,1) 33%,rgba(1,113,153,1) 84%,rgba(2,113,156,1) 84%,rgba(2,113,158,1) 85%,rgba(3,114,160,1) 87%,rgba(3,115,163,1) 87%,rgba(3,115,163,1) 88%,rgba(3,114,167,1) 88%,rgba(1,116,171,1) 91%,rgba(2,117,174,1) 91%,rgba(3,118,183,1) 95%,rgba(3,118,185,1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contenidoPrincipal{
+    position: relative;
+    display: block;
+    width: 891px;
+    background-color: #fbf7d2;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 370px;
+    background-image: url(../images/bgHeader.jpg);
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+header nav{
+    position: absolute;
+    display: block;
+    width: 506px;
+    height: 31px;
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/bannerNav.png);
+    background-repeat: no-repeat;
+}
+
+header nav ul{
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 45px;
+}
+
+header nav ul li{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px; 
+}
+
+
+header nav li a{
+    color: #fff;
+    font-size: 19px;
+}
+
+
+/*******************
+    SECTION
+*******************/
+section{
+    position: relative;
+    display: block;
+}
+
+.contenedorTitulo{
+    position: relative;
+    display: block;
+}
+
+section .contenedorTitulo span{
+    display: block;
+    width: 496px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background-image: url(../images/title.png);
+}
+
+.tituloPrincipal{
+    font-family: "Overlock-bold";
+    position: absolute;
+    color: #f3fbd4;
+    font-size: 24px;
+    top: -10px;
+    left: 44px;
+    letter-spacing: 2px;
+}
+
+.textoIdentado {
+    padding: 0px 29px;
+    text-align: justify;
+    margin: 25px;
+}
+
+/***********************
+    SECTION: CONTENIDO
+***********************/
+
+.contenedor-contenido{
+    position: relative;
+    display: block;
+    overflow: auto;
+}
+
+.columna-contenido{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0 50px;
+    width: 50%;
+    height: 420px;
+    box-sizing: border-box;
+}
+
+.columna-contenido span.subtitulo{
+    position: relative;
+    display: block;
+    width: 275px;
+    height: 65px;
+    background-image: url(../images/subTitle.png);
+}
+
+.columna-contenido span h2{
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 55px;
+    font-size: 19px;
+    top: 8px;
+}
+
+.lista-espaciado-vertical li{
+    margin-bottom: 3px;
+}
+
+
+.contenido-grafica{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+}
+
+.contenido-grafica span.contenedor-grafica{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 14px;
+    width: 432px;
+    height: 125px;
+    background-image: url(../images/separadorHoras.png);
+    background-repeat: no-repeat;
+}
+
+.contenido-grafica span.contenedor-grafica span.grafica{
+    position: absolute;
+    display: block;
+    width: 81px;
+    height: 80px;
+    background-image: url(../images/reloj3horas.png);
+    background-repeat: no-repeat;
+    bottom: 44px;
+    right: 20px;
+}
+
+.contenido-grafica span.contenedor-grafica p{
+    position: absolute;
+    display: block;
+    bottom: -17px;
+    right: 2px;
+    text-align: center;
+}
+
+.contenido-personas{
+    position: absolute;
+    display: block;
+    bottom: 28px;
+    right: 146px;
+    margin: 0;
+}
+.contenido-personas p{
+    margin: 0;
+}
+
+.maestros-background span.ciudad{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/bgMaestros.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+}
+
+.maestros-background span.ciudad > .brown-tint{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: inherit;
+    background: linear-gradient(180deg, rgba(251,247,210,1) 0%, rgba(251,247,210,1) 13%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFBD6', endColorstr='#FFFFFF',GradientType=0 ); /* ie6-9 */
+}
+
+.maestros-background span.ciudad span.maestros{
+    position: absolute;
+    display: block;
+    width: 645px;
+    height: 467px;
+    background-image: url(../images/maestros.png);
+    bottom: 0;
+    right: 0;
+}
+
+.maestros-background-footer{
+    position: absolute;
+    display: block;
+    width: 894px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/separadorMaestros2.png);
+    background-repeat: no-repeat;
+}
+
+
+.maestros-background-footer p{
+    position: relative;
+    display: block;
+    margin-left: 25px;
+}
+
+footer{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 66px;
+    border-radius: 0 0 20px 20px;
+    border-top: 2px solid #fff;
+        background: linear-gradient(to bottom, rgba(236,192,9,1) 0%,rgba(245,185,3,1) 2%,rgba(236,192,7,1) 3%,rgba(237,187,4,1) 5%,rgba(235,184,5,1) 11%,rgba(230,179,12,1) 28%,rgba(228,176,12,1) 30%,rgba(227,174,16,1) 41%,rgba(223,175,17,1) 42%,rgba(219,170,16,1) 50%,rgba(216,169,21,1) 58%,rgba(208,160,24,1) 75%,rgba(204,160,27,1) 83%,rgba(200,155,26,1) 91%,rgba(201,154,22,1) 92%,rgba(198,156,44,1) 94%,rgba(199,157,19,1) 95%,rgba(207,149,23,1) 97%,rgba(203,144,26,1) 98%,rgba(193,174,80,1) 100%);
+}
+
+footer .info-contacto{
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .info-contacto p{
+    margin: 0;
+
+}
+
+footer .telefono-contacto {
+    letter-spacing: 6px;
+}
+
+/*------ ESTILOS AUXILIARES -----*/
+
+.listReset{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.line-height{
+    line-height: 1.5;
+}
+
+.font-big{
+    font-size: 20px;
+}
+
+.font-normal{
+    font-size: 17.8px;
+}
+
+.font-small{
+    font-size: 16px;
+}
+
+.margin-right-small{
+    margin-right: 10px;
+}
+
+.textBrown {
+    color: #894f41;
+}
+
+.textBrownLighter{
+    color: #fbf7d2;
+}
+
+.text-white{
+    color: #fff;
+}
